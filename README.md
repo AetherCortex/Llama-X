@@ -224,7 +224,7 @@ Developers can become Contributors by contributing helpful code, data, paper and
 
 This project has been inspired by multiple open source projects:
 
-[Meat AI LLaMA](https://arxiv.org/abs/2302.13971v1)
+[Meta AI LLaMA](https://arxiv.org/abs/2302.13971v1)
 
 [Huggingface Transformers Llama](https://github.com/huggingface/transformers/tree/main/src/transformers/models/llama)
 
