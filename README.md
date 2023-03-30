@@ -141,9 +141,9 @@ cd ../..
 pip install -r requirements.txt
 ```
 
-- Training data example:
+- Training data example (e.g., [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca/blob/main/alpaca_data.json)):
 ```bash
-data/alpaca_data.json
+Llama-X/src/data/alpaca_data.json
 ```
 
 - Convert LLaMa checkpoint to HuggingFace format:
@@ -185,7 +185,7 @@ deepspeed train.py \
 
 | LLaMA  | Batch Size | V100s  | Time (h)    |
 |--------|------------|--------|-------------|
-| 7 B    | 64         | 8      | 1.00           |
+| 7 B    | 64         | 8      | 1.00        |
 | 13 B   | 32         | 8      | 1.75        |
 
 
