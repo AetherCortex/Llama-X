@@ -1,0 +1,11 @@
+numpy
+rouge_score
+fire
+openai
+sentencepiece
+wandb
+gradio==3.9
+deepspeed 
+transformers 
+accelerate
+tensorboardX
