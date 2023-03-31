@@ -231,7 +231,9 @@ This project has been inspired by multiple open source projects:
 [Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html) and [Alpaca-LoRA](https://github.com/tloen/alpaca-lora)
 
 
+### Non-commercial Use:	
 
+Llama-X now is only for the acadamic porpuse, and please do not apply it to commercial scenarios or products.
 
 
 
