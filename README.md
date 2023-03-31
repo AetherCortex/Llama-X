@@ -146,7 +146,7 @@ pip install -r requirements.txt
 Llama-X/src/data/alpaca_data.json
 ```
 
-- Convert LLaMa checkpoint to HuggingFace format:
+- Convert LLaMA checkpoint to HuggingFace format:
 ```bash
 cd Llama-X/src
 python transformers/src/transformers/models/llama/convert_llama_weights_to_hf.py \
@@ -155,7 +155,7 @@ python transformers/src/transformers/models/llama/convert_llama_weights_to_hf.py
     --output_dir /path/to/llama-7B/hf
 ```
 
-- Train LLaMA-7B on DeepSpeed Zero-3 
+- Train LLaMA-7B on DeepSpeed Zero-3:
 ```bash
 deepspeed train.py \
     --model_name_or_path /path/to/llama-7B/hf \
