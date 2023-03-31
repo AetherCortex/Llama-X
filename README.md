@@ -195,7 +195,7 @@ deepspeed train.py \
 python generate.py
 
 # batch inference
-To-Do
+To Do
 ```
 
 
