@@ -1,6 +1,6 @@
 
 <p align="center" width="100%">
-<a ><img src="src/imgs/pandallm_git.png" alt="Llama-X" style="width: 60%; min-width: 300px; display: block; margin: auto;"></a>
+<a ><img src="src/imgs/pandallm.png" alt="Llama-X" style="width: 60%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 
 
@@ -26,7 +26,7 @@ each other to progressively improve Llama-X through
 iteration of the [target versions](#model).
 - The check-in of the new model must achieve significant improvement with current version on [automatic evaluation](#evaluation).
 
-&#x1F4E3; Please join <a href="https://discord.gg/2etwhe6GvU"><img alt="Join us on Discord" src="https://img.shields.io/discord/823813159592001537?color=5865F2&logo=discord&logoColor=white"></a> if you are interested in Llama-X. Let's Make AI Open Again. 
+&#x1F4E3; Please join <a href="https://discord.gg/2etwhe6GvU"><img alt="Join us on Discord" src="https://img.shields.io/discord/823813159592001537?color=5865F2&logo=discord&logoColor=white"></a> if you are interested in Llama-X.
 
 ## Contents
 1. [Ten main research areas](#research-areas)
