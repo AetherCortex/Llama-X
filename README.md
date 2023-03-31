@@ -233,7 +233,7 @@ This project has been inspired by multiple open source projects:
 
 ### Non-commercial Use:	
 
-Llama-X now is only for the acadamic porpuse, and please do not apply it to commercial scenarios or products.
+Llama-X now is only for the academic purpose, and please do not apply it to commercial scenarios or products.
 
 
 
