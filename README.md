@@ -96,7 +96,7 @@ iteration of the [target versions](#model).
 | 4.0.0         | GPT-4            | Comparable                         |
 
 
-We are focusing on the above research areas [1] & [3] now, and would public our first version of model (Llama-X 3.0.1) and paper before 4/9/2023.
+We are focusing on the above research areas [1] & [3] now, and would public our first version of model (Llama-X 3.0.1) and paper before 4/15/2023.
 
 
 
