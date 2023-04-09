@@ -180,6 +180,34 @@ deepspeed train.py \
     --deepspeed configs/deepspeed_config.json \
     --fp16 True
 ```
+- Train LLaMA-7B on DeepSpeed Zero-3 with Multi-nodes
+```bash
+deepspeed --num_gpus num_of_gpus_in_each_node \
+    --num_nodes num_of_nodes \
+    --master_addr ip_address_of_main_node \
+    --master_port 34545 \
+    --hostfile configs/hostfile \
+    train.py \
+    --model_name_or_path /path/to/llama-7B/hf \
+    --data_path /path/to/example_data.json \
+    --output_dir /path/to/llama-7B/hf/ft \
+    --num_train_epochs 3 \
+    --per_device_train_batch_size 64 \
+    --per_device_eval_batch_size 4 \
+    --gradient_accumulation_steps 1 \
+    --evaluation_strategy "no" \
+    --save_strategy "steps" \
+    --save_steps 100 \
+    --save_total_limit 2 \
+    --learning_rate 2e-5 \
+    --warmup_steps 2 \
+    --logging_steps 2 \
+    --lr_scheduler_type "cosine" \
+    --report_to "tensorboard" \
+    --gradient_checkpointing True \
+    --deepspeed configs/deepspeed_config.json \
+    --fp16 True
+```
 
 - The current code of Llama-X support:
     - Fully Finetune: Optimize full LLaMA checkpoint, instead of `Low-Rank Adaptation (LoRA)`.
