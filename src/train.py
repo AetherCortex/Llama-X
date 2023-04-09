@@ -160,13 +160,14 @@ def train_tokenize_function(examples, tokenizer):
     prompt_input, prompt_no_input = PROMPT_DICT["prompt_input"], PROMPT_DICT["prompt_no_input"]
     if 'input' in examples:
         sources = [
-            prompt_input.format_map(dict(instruction=instruction, input=input)) \
+            prompt_input.format_map(dict(instruction=instruction, input=input)) if input != "" \
+            else prompt_no_input.format_map(dict(instruction=instruction)) \
             for instruction, input in zip(examples['instruction'], examples['input']) 
         ]
     else:
         sources = [
             prompt_no_input.format_map(dict(instruction=instruction)) \
-            for instruction in zip(examples['instruction'])
+            for instruction in examples['instruction']
         ]
     targets = [f"{output}{tokenizer.eos_token}" for output in examples['output']]
     data_dict = preprocess(sources, targets, tokenizer)
