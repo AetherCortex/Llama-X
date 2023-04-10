@@ -164,6 +164,7 @@ deepspeed train.py \
     --data_path /path/to/example_data.json \
     --output_dir /path/to/llama-7B/hf/ft \
     --num_train_epochs 3 \
+    --model_max_length 512 \
     --per_device_train_batch_size 64 \
     --per_device_eval_batch_size 1 \
     --gradient_accumulation_steps 1 \
@@ -192,6 +193,7 @@ deepspeed --num_gpus num_of_gpus_in_each_node \
     --data_path /path/to/example_data.json \
     --output_dir /path/to/llama-7B/hf/ft \
     --num_train_epochs 3 \
+    --model_max_length 512 \
     --per_device_train_batch_size 64 \
     --per_device_eval_batch_size 4 \
     --gradient_accumulation_steps 1 \
