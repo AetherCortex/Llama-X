@@ -29,19 +29,24 @@ iteration of the [target versions](#model).
 &#x1F4E3; Please join <a href="https://discord.gg/2etwhe6GvU"><img alt="Join us on Discord" src="https://img.shields.io/discord/823813159592001537?color=5865F2&logo=discord&logoColor=white"></a> if you are interested in Llama-X.
 
 ## Contents
-1. [Ten main research areas](#research-areas)
+1. [News](#news)
 
-2. [Llama-X Model Version](#model)
+2. [Ten main research areas](#research-areas)
 
-3. [Llama-X Evaluation](#evaluation)
+3. [Llama-X Model Version](#model)
 
-4. [Llama-X Paper List](#paper)
+4. [Llama-X Evaluation](#evaluation)
 
-5. [Usage](#usage)
+5. [Llama-X Paper List](#paper)
 
-6. [How to contribute](#contribute)
+6. [Usage](#usage)
+
+7. [How to contribute](#contribute)
 
 
+<h2 id="news">News</h2>
+
+We have completed the training of our first version of model (Llama-X 3.0.1). Please experience our model in the demo page(https://github.com/tatsu-lab/stanford_alpaca/blob/main/alpaca_data.json), and then the data, code and model weights will be updated.
 
 <h2 id="research-areas">Ten main research areas</h2>
 
