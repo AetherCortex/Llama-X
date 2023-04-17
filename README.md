@@ -46,7 +46,7 @@ iteration of the [target versions](#model).
 
 <h2 id="news">News</h2>
 
-We have completed the training of our first version of model (Llama-X 3.0.1). Please experience our model in the [demo page](https://ecb35665761e90ff.gradio.app/), and later the data, code and model weights will be updated in this repo.
+We have completed the training of our first version of model (Llama-X 3.0.1). Please experience our model in the [demo page](https://f90941f86cd1a7e1.gradio.app/), and later the data, code and model weights will be updated in this repo.
 
 <h2 id="research-areas">Ten main research areas</h2>
 
