@@ -101,7 +101,7 @@ We have completed the training of our first version of model (Llama-X 3.0.1 7B).
 | 4.0.0         | GPT-4            | Comparable                         |
 
 
-We are focusing on the above research areas [1] & [3] now, and would public our first version of model (Llama-X 3.0.1) and paper before 4/15/2023.
+We are focusing on the above research areas [1] & [3] now, and would public our first version of model (Llama-X 3.0.1) and paper.
 
 
 
@@ -124,8 +124,15 @@ of all the following Type-A benchmarks. And the additional evaluation for Type-B
 | B    | Visual Inputs (TBD) |
 
 
+Results:
 
+| Model                        | MMLU   | TruthfulQA | GSM-8K | NaturalQuestions |
+|------------------------------|--------|------------|--------|------------------|
+|InstructGPT davinci v2 (175B)^ | 0.57   | 0.62       |  0.35  | 0.389            |
+|Llama-X 3.0.1 (7B)            | 0.4412 | 0.2032     |  0.1887| 0.2422           |
+|Llama-i (7B)                  | 0.5121 | 0.2142     |  0.2259| 0.3499           |
 
+^ The results of `InstructGPT davinci v2 (175B)` are copied from [Stanford CRFM Benchmark](https://crfm.stanford.edu/).
 
 <h2 id="paper">Llama-X Paper List</h2>
 
