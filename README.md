@@ -155,6 +155,11 @@ cd ../..
 pip install -r requirements.txt
 ```
 
+- Alternatively, use the [Docker image](https://hub.docker.com/layers/trngon11/llama-x-finetuning-ai/latest/images/sha256-42e570ec95026141f12aef802e36801dd8d9eadc8351f96657ac8621c6dcfb12?context=repo) with everything already set up and ready for training, ideal for quickly deploying on GPU rental services:
+```bash
+docker pull trngon11/llama-x-finetuning-ai:latest
+```
+
 - Training data example (e.g., [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca/blob/main/alpaca_data.json)):
 ```bash
 Llama-X/src/data/alpaca_data.json
