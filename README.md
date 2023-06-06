@@ -21,7 +21,7 @@ The project will follow these principles:
 - We will publish all the `code`, `model`, `data`, and `experiments` details.
 - We will `continuously` improve the model version by version and open the `newest` method.
 - We will summary the method of each main version as `academic papers`.
-- We announce a complete [research plan](#research-areas). The contributors are wellcome to cooperate with 
+- We announce a complete [research plan](#research-areas). The contributors are welcome to cooperate with 
 each other to progressively improve Llama-X through 
 iteration of the [target versions](#model).
 - The check-in of the new model must achieve significant improvement with current version on [automatic evaluation](#evaluation).
