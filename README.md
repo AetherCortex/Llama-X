@@ -149,9 +149,9 @@ git clone https://github.com/AetherCortex/Llama-X.git
 cd Llama-X/src
 conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
 pip install transformers==4.29.2
-git clone https://github.com/huggingface/transformers.git
-cd transformers
-pip install -e .
+<!-- git clone https://github.com/huggingface/transformers.git -->
+<!-- cd transformers -->
+<!-- pip install -e . -->
 cd ../..
 pip install -r requirements.txt
 ```
