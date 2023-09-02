@@ -8,3 +8,4 @@ gradio==3.9
 deepspeed==0.10.0
 accelerate
 tensorboardX
+datasets
